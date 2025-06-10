@@ -1,0 +1,322 @@
+:root{
+    margin:auto;  padding:0;  box-sizing: border-box;
+}
+body{
+    font-family: 1em;
+}
+a{
+    color: black;
+}
+#contenedor{
+    margin:0px;  padding-top: 0px;
+}
+#contener{
+    margin:0px;  padding-top: 350px;
+}
+#contenedar{
+    margin:0px;  padding-top: 300px;
+}
+#contenible{
+    margin:0px;  padding-top: 300px;
+}
+
+header{
+    background: linear-gradient(rgb(59, 0, 0), rgb(100, 0, 13));
+    padding: 10px;
+}
+.hierno{
+    position: fixed;  top:0.1px;
+    width:100%;  z-index: 10px;
+}
+
+.norm{
+    position: relative;  top:10px;
+}
+.norm1{
+    position: relative;  top:-7px;
+}
+h4{
+    font-family: "Exo 2", sans-serif;
+}
+#marc{
+    justify-content: center;  flex-direction: row;
+    display: flex;  align-content: center;
+    flex-wrap: wrap;  position:relative;
+    top:0;  width:85%;  transform: translate(7%,0%);
+    justify-content: space-evenly;
+    padding: 12px;
+    background-color: rgb(255, 223, 223);
+}
+#larcu{
+    justify-content: center;
+    flex-direction: row;   display: flex;  flex-wrap: wrap;
+    justify-content: space-evenly;  padding: 10px;  left:30px;
+    position: relative;  bottom:50px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.fie{
+    position:relative;  color: rgb(167, 197, 255);  top:55px;
+}
+.lie{
+    position:relative;  top:0px;
+}
+li .fie:hover{
+    transition-property: all;  transition: ease-in;
+    transition-duration: 0.2s;  transition-delay: 0.2;
+    background-color: rgb(0, 5, 17);
+    border-radius: 15px;  padding: 8px;  font-size: 17px;
+    color: rgb(109, 112, 255);
+}
+li .lie:hover{
+    transition-property: all;
+    transition: ease-in-out;  transition-duration: 0.2s;  transition-delay: 0.2;
+    background-color: rgb(54, 0, 13);
+    border-radius: 15px;  padding: 8.5px;  color: rgb(158, 0, 0);
+}
+.ere{
+    height: 350px;  position:relative;  top:44px;  left:190px;
+}
+.fio{
+    float: left;  position: relative;
+}
+.tri{
+    position:relative;  bottom:264px;
+}
+.g1{
+    height:65px;
+}
+.g2{
+    height:68px;  position:relative;  bottom:3px;
+}
+
+.g3{
+    height:43px;  border-radius: 10px;  position:relative;  top:10px;
+}
+.g4{
+    height:40px;  border-radius: 10px;  position:relative;  top:10px;
+}
+#pine{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+.w1:hover{
+    transition-property: all;  transition: ease-in;
+    transition-duration: 0.2s;
+    transition-delay: 0.3;  filter:invert(15%);
+}
+
+article{
+    justify-content: center;  align-self: center;
+}
+#video-responsive{
+    padding-bottom: 56,25%; width:40%;
+    z-index: -1;  position: relative;  padding-bottom: 100px;
+    transform: translate(75%,0%);
+}
+.calci{
+    background: linear-gradient(rgb(196, 214, 255), rgb(233, 240, 255));
+    border: 3px solid black;  border-style: groove;  position: relative;  margin: 30px;  z-index: -1;
+}
+.j3{
+    position:relative;
+    top:100px;
+}
+.texto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+.stock{
+    display: flex;
+    position: relative;
+    z-index: -1;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.clerigo1{
+    filter: invert(30%);
+}
+.clerigo2{
+    filter: sepia(50%);
+}
+.clerigo3{
+    filter: grayscale(100%);
+}
+.clerigo4{
+    filter:blur(2px);
+}
+.clerigo5{
+    filter:opacity(50%);
+}
+.clerigo6{
+    filter:hue-rotate(55deg);
+}
+.venti{
+    border: 3px solid black;
+    margin:12px;
+    z-index: -1;
+    position: relative;
+}
+
+.dorme{
+    text-align: center;
+}
+.yolk{
+    position: relative;
+    bottom:60px;
+    left: 1290px;
+}
+.yarme{
+    font-size: 12px;
+    position: relative;
+    bottom:60px;
+    left:636px;
+
+}
+.gr4{
+    background-image: url("img/arat.jpg");
+}
+.k4{
+    position: relative;
+    transform: translate(0%,20%);
+}
+
+.j2{
+    align-items: center;
+    margin-bottom:9px;
+    height: 90vh; 
+    position: relative;
+    z-index: -1;
+}
+td, th{
+    border:none;
+}
+table{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(54, 54, 54);
+    font-family: "Varela Round", sans-serif;
+    border-style:inset;
+    position: relative;
+    left:160px;
+}
+.frame{
+    position: relative;
+    left:160px;
+    top:10px;
+    text-decoration: underline;
+    color: rgb(102, 0, 0); 
+}
+#form{
+    background-color: #c8e5ff;
+    padding: 16px;
+    height:auto;
+    left: 112px;
+    position: absolute;
+    z-index: -1;
+    border: 5px solid rgb(108, 159, 255);
+    border-style: double;
+    justify-content: center;
+}
+.j2{
+    position: relative;
+    z-index: -1;
+}
+.j2{
+    right:100px;
+}
+
+#born{
+    font-family: "Varela Round", sans-serif;
+}
+.mine{
+    background-color: rgb(192, 242, 255);
+    padding: 10px;
+    width:386px;
+    font-family: "Afacad Flux", sans-serif;
+    height:40px;
+}
+.rine{
+    background-color: rgb(192, 242, 255);
+    padding: 10px;
+    width:410px;
+    font-family: "Afacad Flux", sans-serif;
+    height:60px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.btn{
+    width:410px;
+    height:36px;
+    background-color: azure;
+    font-family: "Varela Round", sans-serif;
+    padding: 5px;
+}
+.cloir{
+    position: relative;
+    bottom:10px;
+}
+.dloir{
+    position: relative;
+    bottom:10px;
+    right:5px;
+}
+.noir{
+    position: relative;
+    right:5px;
+}
+.loir{
+    position: relative;
+    font-size: 1.1em;
+    right:65px;
+}
+.koir{
+    position: relative;
+    font-size: 1.1em;
+    right:55px;
+}
+.poir{
+    position: relative;
+    top:10px;
+}
+.goir{
+    position: relative;
+    top:10.5px;
+    right:5px;
+}
+.geri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid grey;
+    margin-bottom:10px; 
+}
+
+
+
+.grid-container{
+    padding:20px;
+    display: grid;
+    grid-template-columns: 20fr,1fr,1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "uno uno uno" 
+    "uno uno uno" 
+    "uno uno uno" ;
+    gap:10px;
+}
+.uno{ grid-area: uno; font-size: 1.4em; };
+.dos{ grid-area: dos};
+.tres{ grid-area: tres};
+.cuatro{ grid-area: cuatro};
+.cinco{ grid-area: cinco};
+.seis{ grid-area: seis};
